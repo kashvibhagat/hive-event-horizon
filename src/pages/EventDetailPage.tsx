@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -15,7 +14,7 @@ import { toast } from 'sonner';
 const eventData = {
   id: '1',
   title: 'Taylor Swift: The Eras Tour',
-  description: 'Experience the music of Taylor Swift's journey through the musical eras of her career. Taylor Swift: The Eras Tour has been called a "career-spanning spectacular" by the New York Times, "a rousing and breathless three-hour spectacle" by Rolling Stone, and "utterly perfect" by Variety.',
+  description: "Experience the music of Taylor Swift's journey through the musical eras of her career. Taylor Swift: The Eras Tour has been called a \"career-spanning spectacular\" by the New York Times, \"a rousing and breathless three-hour spectacle\" by Rolling Stone, and \"utterly perfect\" by Variety.",
   longDescription: `
     <p class="mb-4">Join us for an unforgettable night with the 11-time Grammy winner Taylor Swift as she takes the stage for her record-breaking Eras Tour. This career-spanning concert takes you through the musical journey of one of the most influential artists of our generation.</p>
     

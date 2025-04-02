@@ -30,7 +30,7 @@ const testimonials = [
     name: 'David Williams',
     role: 'Comedy Show Attendee',
     image: 'https://randomuser.me/api/portraits/men/23.jpg',
-    quote: 'The notifications feature is amazing! I never miss a comedy show in my area thanks to EventHive's timely alerts.'
+    quote: "The notifications feature is amazing! I never miss a comedy show in my area thanks to EventHive's timely alerts."
   },
 ];
 
