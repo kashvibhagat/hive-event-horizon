@@ -17,6 +17,8 @@ import StreamsPage from "./pages/StreamsPage";
 import ActivitiesPage from "./pages/ActivitiesPage";
 import OffersPage from "./pages/OffersPage";
 import AboutPage from "./pages/AboutPage";
+import CheckoutPage from "./pages/CheckoutPage";
+import PaymentSuccessPage from "./pages/PaymentSuccessPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +35,8 @@ const App = () => (
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="/event/:id" element={<EventDetailPage />} />
+            <Route path="/checkout" element={<CheckoutPage />} />
+            <Route path="/payment-success" element={<PaymentSuccessPage />} />
             <Route path="/sports" element={<SportsPage />} />
             <Route path="/movies" element={<MoviesPage />} />
             <Route path="/comedy" element={<ComedyPage />} />

@@ -1,5 +1,6 @@
+
 import { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -68,6 +69,7 @@ const eventData = {
 
 const EventDetailPage = () => {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const [isFavorite, setIsFavorite] = useState(false);
   const [quantity, setQuantity] = useState(1);
   const [ticketType, setTicketType] = useState('general');
@@ -83,7 +85,20 @@ const EventDetailPage = () => {
   };
   
   const handleBookTickets = () => {
-    toast.success(`${quantity} tickets booked for the event!`);
+    const selectedTicket = eventData.ticketTypes.find(ticket => ticket.id === ticketType);
+    if (!selectedTicket) return;
+
+    // Navigate to checkout with the event details
+    navigate('/checkout', {
+      state: {
+        eventId: id,
+        eventTitle: eventData.title,
+        ticketType: selectedTicket.name,
+        quantity: quantity,
+        unitPrice: selectedTicket.price,
+        totalPrice: selectedTicket.price * quantity
+      }
+    });
   };
 
   const selectedTicket = eventData.ticketTypes.find(ticket => ticket.id === ticketType);
