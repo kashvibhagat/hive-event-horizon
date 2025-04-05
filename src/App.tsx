@@ -12,6 +12,9 @@ import EventDetailPage from "./pages/EventDetailPage";
 import SportsPage from "./pages/SportsPage";
 import MoviesPage from "./pages/MoviesPage";
 import ComedyPage from "./pages/ComedyPage";
+import ConcertsPage from "./pages/ConcertsPage";
+import StreamsPage from "./pages/StreamsPage";
+import ActivitiesPage from "./pages/ActivitiesPage";
 import OffersPage from "./pages/OffersPage";
 import NotFound from "./pages/NotFound";
 
@@ -32,6 +35,9 @@ const App = () => (
             <Route path="/sports" element={<SportsPage />} />
             <Route path="/movies" element={<MoviesPage />} />
             <Route path="/comedy" element={<ComedyPage />} />
+            <Route path="/concerts" element={<ConcertsPage />} />
+            <Route path="/streams" element={<StreamsPage />} />
+            <Route path="/activities" element={<ActivitiesPage />} />
             <Route path="/offers" element={<OffersPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
