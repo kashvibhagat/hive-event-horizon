@@ -7,7 +7,7 @@ import Newsletter from '@/components/Newsletter';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <HeroBanner />
       <EventCategories />
       <FeaturedEvents />

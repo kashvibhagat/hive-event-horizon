@@ -3,7 +3,6 @@ import { useState } from 'react';
 import EventCard, { EventCardProps } from './EventCard';
 import { Button } from '@/components/ui/button';
 
-// Sample event data
 const sampleEvents: EventCardProps[] = [
   {
     id: '1',
@@ -44,47 +43,7 @@ const sampleEvents: EventCardProps[] = [
     location: 'AMC Lincoln Square, New York',
     category: 'Movie',
     price: '$25'
-  },
-  {
-    id: '5',
-    title: 'Electric Daisy Carnival',
-    image: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
-    date: 'August 10, 2023',
-    time: '8:00 PM',
-    location: 'Las Vegas Motor Speedway, Las Vegas',
-    category: 'Festival',
-    price: '$250'
-  },
-  {
-    id: '6',
-    title: 'Broadway: Hamilton',
-    image: 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
-    date: 'August 15, 2023',
-    time: '2:00 PM',
-    location: 'Richard Rodgers Theatre, New York',
-    category: 'Theater',
-    price: '$199'
-  },
-  {
-    id: '7',
-    title: 'Golf: The Masters Tournament',
-    image: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
-    date: 'April 5, 2024',
-    time: 'All Day',
-    location: 'Augusta National Golf Club, Georgia',
-    category: 'Sports',
-    price: '$120'
-  },
-  {
-    id: '8',
-    title: 'Coldplay: Music of the Spheres World Tour',
-    image: 'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
-    date: 'September 10, 2023',
-    time: '7:30 PM',
-    location: 'Wembley Stadium, London',
-    category: 'Concert',
-    price: '$110'
-  },
+  }
 ];
 
 const FeaturedEvents = () => {
