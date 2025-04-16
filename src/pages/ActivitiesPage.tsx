@@ -9,7 +9,7 @@ const activityEvents = [
   {
     id: 'a1',
     title: 'Himalayan Trek Adventure',
-    image: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'May 25, 2025',
     time: '8:00 AM',
     location: 'Manali, Himachal Pradesh',
@@ -19,7 +19,7 @@ const activityEvents = [
   {
     id: 'a2',
     title: 'Nashik Wine Tasting Tour',
-    image: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 15, 2025',
     time: '2:00 PM',
     location: 'Sula Vineyards, Nashik',
@@ -29,7 +29,7 @@ const activityEvents = [
   {
     id: 'a3',
     title: 'Desert Safari Experience',
-    image: 'https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1542401886-65d6c61db217?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 5, 2025',
     time: '6:00 AM',
     location: 'Jaisalmer, Rajasthan',
@@ -39,7 +39,7 @@ const activityEvents = [
   {
     id: 'a4',
     title: 'Traditional Cooking Workshop',
-    image: 'https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'August 20, 2025',
     time: '5:30 PM',
     location: 'The Ashok, New Delhi',
@@ -49,7 +49,7 @@ const activityEvents = [
   {
     id: 'a5',
     title: 'Pottery Making Workshop',
-    image: 'https://images.unsplash.com/photo-1494122353634-c310f45a6d3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1609501677420-0548f9c47114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'September 10, 2025',
     time: '1:00 PM',
     location: 'Andretta Pottery, Himachal Pradesh',
@@ -59,7 +59,7 @@ const activityEvents = [
   {
     id: 'a6',
     title: 'Backwater Kayaking',
-    image: 'https://images.unsplash.com/photo-1472745433479-4556f22e32c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1596615767890-19b1d716734e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'October 5, 2025',
     time: '5:00 PM',
     location: 'Alleppey, Kerala',

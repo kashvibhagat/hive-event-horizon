@@ -7,7 +7,7 @@ const sampleEvents: EventCardProps[] = [
   {
     id: '1',
     title: 'Arijit Singh Live in Concert',
-    image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 15, 2023',
     time: '7:00 PM',
     location: 'DY Patil Stadium, Mumbai',
@@ -17,7 +17,7 @@ const sampleEvents: EventCardProps[] = [
   {
     id: '2',
     title: 'IPL 2023: MI vs CSK',
-    image: 'https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 20, 2023',
     time: '8:30 PM',
     location: 'Wankhede Stadium, Mumbai',
@@ -27,7 +27,7 @@ const sampleEvents: EventCardProps[] = [
   {
     id: '3',
     title: 'Zakir Khan Comedy Show',
-    image: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1585147375826-84fd54343b23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 2, 2023',
     time: '9:00 PM',
     location: 'Bharatiya Vidya Bhavan, Mumbai',
@@ -37,7 +37,7 @@ const sampleEvents: EventCardProps[] = [
   {
     id: '4',
     title: 'Pathaan - IMAX Experience',
-    image: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 21, 2023',
     time: '7:30 PM',
     location: 'PVR IMAX, Lower Parel, Mumbai',
