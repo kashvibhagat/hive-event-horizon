@@ -8,14 +8,10 @@ import { Label } from '@/components/ui/label';
 import { Separator } from '@/components/ui/separator';
 import { useToast } from "@/hooks/use-toast";
 import { useForm } from "react-hook-form";
-import { createClient } from '@supabase/supabase-js';
 import { Loader2 } from 'lucide-react';
 
-// Initialize Supabase client
-const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
-);
+// Remove the Supabase initialization for now since environment variables aren't set up
+// We'll simulate the checkout process instead
 
 // Event information will be passed via location state
 interface CheckoutState {
@@ -57,41 +53,20 @@ const CheckoutPage = () => {
     try {
       setIsProcessing(true);
       
-      // Call the Stripe checkout function
-      const { data: sessionData, error } = await supabase.functions.invoke('create-checkout', {
-        body: { 
-          eventId,
-          ticketType,
-          quantity,
-          unitPrice,
-          totalPrice,
-          customerEmail: data.email,
-          customerName: data.name
-        }
-      });
-
-      if (error) {
-        throw new Error(error.message);
-      }
-
-      // If successful, redirect to the Stripe checkout URL
-      if (sessionData?.url) {
-        window.location.href = sessionData.url;
-      } else {
-        // Simulate successful payment for development
-        setTimeout(() => {
-          setIsProcessing(false);
-          navigate('/payment-success', { 
-            state: { 
-              eventTitle, 
-              ticketType, 
-              quantity, 
-              totalPrice,
-              orderNumber: `EH-${Date.now().toString().substring(7)}`
-            } 
-          });
-        }, 2000);
-      }
+      // Simulate successful payment for development
+      setTimeout(() => {
+        setIsProcessing(false);
+        navigate('/payment-success', { 
+          state: { 
+            eventTitle, 
+            ticketType, 
+            quantity, 
+            totalPrice,
+            orderNumber: `EH-${Date.now().toString().substring(7)}`
+          } 
+        });
+      }, 2000);
+      
     } catch (error) {
       console.error('Payment error:', error);
       setIsProcessing(false);
