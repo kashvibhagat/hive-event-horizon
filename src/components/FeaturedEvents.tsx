@@ -6,43 +6,43 @@ import { Button } from '@/components/ui/button';
 const sampleEvents: EventCardProps[] = [
   {
     id: '1',
-    title: 'Taylor Swift: The Eras Tour',
+    title: 'Arijit Singh Live in Concert',
     image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 15, 2023',
     time: '7:00 PM',
-    location: 'Madison Square Garden, New York',
+    location: 'DY Patil Stadium, Mumbai',
     category: 'Concert',
-    price: '$99'
+    price: '₹2,999'
   },
   {
     id: '2',
-    title: 'NBA Finals 2023: Lakers vs Celtics',
+    title: 'IPL 2023: MI vs CSK',
     image: 'https://images.unsplash.com/photo-1504450758481-7338eba7524a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 20, 2023',
     time: '8:30 PM',
-    location: 'TD Garden, Boston',
+    location: 'Wankhede Stadium, Mumbai',
     category: 'Sports',
-    price: '$150'
+    price: '₹999'
   },
   {
     id: '3',
-    title: 'Dave Chappelle Live',
+    title: 'Zakir Khan Comedy Show',
     image: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 2, 2023',
     time: '9:00 PM',
-    location: 'The Comedy Store, Los Angeles',
+    location: 'Bharatiya Vidya Bhavan, Mumbai',
     category: 'Comedy',
-    price: '$85'
+    price: '₹799'
   },
   {
     id: '4',
-    title: 'Oppenheimer - IMAX Experience',
+    title: 'Pathaan - IMAX Experience',
     image: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 21, 2023',
     time: '7:30 PM',
-    location: 'AMC Lincoln Square, New York',
+    location: 'PVR IMAX, Lower Parel, Mumbai',
     category: 'Movie',
-    price: '$25'
+    price: '₹599'
   }
 ];
 

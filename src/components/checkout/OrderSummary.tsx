@@ -36,15 +36,15 @@ export const OrderSummary = ({
           <div className="space-y-2">
             <div className="flex justify-between">
               <span>Price</span>
-              <span>${unitPrice.toFixed(2)} × {quantity}</span>
+              <span>₹{unitPrice.toFixed(2)} × {quantity}</span>
             </div>
             <div className="flex justify-between">
               <span>Subtotal</span>
-              <span>${totalPrice.toFixed(2)}</span>
+              <span>₹{totalPrice.toFixed(2)}</span>
             </div>
             <div className="flex justify-between">
               <span>Processing Fee</span>
-              <span>${(totalPrice * 0.05).toFixed(2)}</span>
+              <span>₹{(totalPrice * 0.05).toFixed(2)}</span>
             </div>
           </div>
           
@@ -52,7 +52,7 @@ export const OrderSummary = ({
           
           <div className="flex justify-between font-bold">
             <span>Total</span>
-            <span>${(totalPrice * 1.05).toFixed(2)}</span>
+            <span>₹{(totalPrice * 1.05).toFixed(2)}</span>
           </div>
         </div>
       </CardContent>

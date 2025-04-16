@@ -8,63 +8,63 @@ import EventCard from '@/components/EventCard';
 const concertEvents = [
   {
     id: 'c1',
-    title: 'Taylor Swift: The Eras Tour',
+    title: 'Arijit Singh Live in Concert',
     image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 15, 2025',
     time: '7:00 PM',
-    location: 'Madison Square Garden, New York',
+    location: 'DY Patil Stadium, Mumbai',
     category: 'Concert',
-    price: '$99'
+    price: '₹2,999'
   },
   {
     id: 'c2',
-    title: 'Coldplay: Music of the Spheres World Tour',
+    title: 'Divine Gully Gang Tour',
     image: 'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'September 10, 2025',
     time: '7:30 PM',
-    location: 'Wembley Stadium, London',
+    location: 'Jawaharlal Nehru Stadium, Delhi',
     category: 'Concert',
-    price: '$110'
+    price: '₹1,999'
   },
   {
     id: 'c3',
-    title: 'The Weeknd: After Hours Tour',
+    title: 'Nucleya Bass Drop Tour',
     image: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 22, 2025',
     time: '8:00 PM',
-    location: 'SoFi Stadium, Los Angeles',
+    location: 'Phoenix Marketcity, Bangalore',
     category: 'Concert',
-    price: '$120'
+    price: '₹1,499'
   },
   {
     id: 'c4',
-    title: 'Beyoncé: Renaissance World Tour',
+    title: 'Sunburn Festival 2025',
     image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'August 5, 2025',
     time: '8:30 PM',
-    location: 'Nissan Stadium, Nashville',
+    location: 'Candolim Beach, Goa',
     category: 'Concert',
-    price: '$150'
+    price: '₹3,999'
   },
   {
     id: 'c5',
-    title: 'BTS: Map of the Soul Tour',
+    title: 'Prateek Kuhad India Tour',
     image: 'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'October 10, 2025',
     time: '7:00 PM',
-    location: 'Rose Bowl Stadium, Pasadena',
+    location: 'Royal Opera House, Mumbai',
     category: 'Concert',
-    price: '$140'
+    price: '₹2,499'
   },
   {
     id: 'c6',
-    title: 'Rihanna: R9 Album World Tour',
+    title: 'AR Rahman Live Concert',
     image: 'https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'September 25, 2025',
     time: '8:00 PM',
-    location: 'Rogers Centre, Toronto',
+    location: 'Buddh International Circuit, Noida',
     category: 'Concert',
-    price: '$130'
+    price: '₹4,999'
   }
 ];
 

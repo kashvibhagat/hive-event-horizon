@@ -8,63 +8,63 @@ import EventCard from '@/components/EventCard';
 const activityEvents = [
   {
     id: 'a1',
-    title: 'Mountain Hiking Adventure',
+    title: 'Himalayan Trek Adventure',
     image: 'https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'May 25, 2025',
     time: '8:00 AM',
-    location: 'Appalachian Trail, Georgia',
+    location: 'Manali, Himachal Pradesh',
     category: 'Activity',
-    price: '$40'
+    price: '₹4,999'
   },
   {
     id: 'a2',
-    title: 'Wine Tasting Tour',
+    title: 'Nashik Wine Tasting Tour',
     image: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 15, 2025',
     time: '2:00 PM',
-    location: 'Napa Valley, California',
+    location: 'Sula Vineyards, Nashik',
     category: 'Activity',
-    price: '$75'
+    price: '₹2,999'
   },
   {
     id: 'a3',
-    title: 'Hot Air Balloon Ride',
+    title: 'Desert Safari Experience',
     image: 'https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 5, 2025',
     time: '6:00 AM',
-    location: 'Cappadocia, Turkey',
+    location: 'Jaisalmer, Rajasthan',
     category: 'Activity',
-    price: '$200'
+    price: '₹3,499'
   },
   {
     id: 'a4',
-    title: 'Cooking Class: Italian Cuisine',
+    title: 'Traditional Cooking Workshop',
     image: 'https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'August 20, 2025',
     time: '5:30 PM',
-    location: 'Culinary Institute, New York',
+    location: 'The Ashok, New Delhi',
     category: 'Activity',
-    price: '$85'
+    price: '₹1,999'
   },
   {
     id: 'a5',
-    title: 'Pottery Workshop',
+    title: 'Pottery Making Workshop',
     image: 'https://images.unsplash.com/photo-1494122353634-c310f45a6d3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'September 10, 2025',
     time: '1:00 PM',
-    location: 'Community Art Center, Portland',
+    location: 'Andretta Pottery, Himachal Pradesh',
     category: 'Activity',
-    price: '$60'
+    price: '₹1,499'
   },
   {
     id: 'a6',
-    title: 'Sunset Kayaking',
+    title: 'Backwater Kayaking',
     image: 'https://images.unsplash.com/photo-1472745433479-4556f22e32c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'October 5, 2025',
     time: '5:00 PM',
-    location: 'Lake Tahoe, Nevada',
+    location: 'Alleppey, Kerala',
     category: 'Activity',
-    price: '$50'
+    price: '₹1,999'
   }
 ];
 

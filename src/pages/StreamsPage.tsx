@@ -8,43 +8,43 @@ import EventCard from '@/components/EventCard';
 const streamEvents = [
   {
     id: 's1',
-    title: 'Live Stream: Global Gaming Championship',
+    title: 'BGMI Pro League Finals',
     image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'May 20, 2025',
     time: '3:00 PM',
-    location: 'Online - Twitch',
+    location: 'Online - YouTube Gaming India',
     category: 'Stream',
-    price: '$15'
+    price: '₹199'
   },
   {
     id: 's2',
-    title: 'Virtual Concert: Electronic Music Festival',
+    title: 'Virtual Sunburn Home Festival',
     image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'June 5, 2025',
     time: '9:00 PM',
-    location: 'Online - YouTube Live',
+    location: 'Online - Sunburn TV',
     category: 'Stream',
-    price: '$20'
+    price: '₹299'
   },
   {
     id: 's3',
-    title: 'Live Q&A with Marvel Cast',
+    title: 'Bollywood Stars Live Interview',
     image: 'https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'July 10, 2025',
     time: '5:00 PM',
-    location: 'Online - Disney+',
+    location: 'Online - Disney+ Hotstar',
     category: 'Stream',
-    price: '$25'
+    price: '₹399'
   },
   {
     id: 's4',
-    title: 'Virtual Cooking Class with Celebrity Chef',
+    title: 'Masterclass with Chef Sanjeev Kapoor',
     image: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80',
     date: 'August 15, 2025',
     time: '2:00 PM',
-    location: 'Online - Instagram Live',
+    location: 'Online - FoodFood Channel',
     category: 'Stream',
-    price: '$30'
+    price: '₹499'
   }
 ];
 
