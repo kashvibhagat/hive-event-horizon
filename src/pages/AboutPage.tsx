@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const AboutPage = () => {
   return (
@@ -49,19 +49,29 @@ const AboutPage = () => {
           <h2 className="text-2xl font-semibold mb-4">The Team</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-3"></div>
-              <h3 className="font-semibold">Alex Johnson</h3>
-              <p className="text-gray-600">CEO & Founder</p>
+              <Avatar className="w-32 h-32 mx-auto mb-3">
+                <AvatarImage 
+                  src="/lovable-uploads/96d719d2-3c41-46b7-9783-c5c60f35ede3.png" 
+                  alt="Kashvi Bhagat" 
+                />
+                <AvatarFallback>KB</AvatarFallback>
+              </Avatar>
+              <h3 className="font-semibold mt-3">Kashvi Bhagat</h3>
+              <p className="text-gray-600">CEO</p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-3"></div>
-              <h3 className="font-semibold">Maria Rodriguez</h3>
+              <Avatar className="w-32 h-32 mx-auto mb-3">
+                <AvatarFallback>NS</AvatarFallback>
+              </Avatar>
+              <h3 className="font-semibold mt-3">Nikhil Sharma</h3>
               <p className="text-gray-600">CTO</p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-3"></div>
-              <h3 className="font-semibold">David Kim</h3>
-              <p className="text-gray-600">Head of Design</p>
+              <Avatar className="w-32 h-32 mx-auto mb-3">
+                <AvatarFallback>PT</AvatarFallback>
+              </Avatar>
+              <h3 className="font-semibold mt-3">Prachi Trivedi</h3>
+              <p className="text-gray-600">Co-founder and COO</p>
             </div>
           </div>
         </div>
