@@ -17,6 +17,11 @@ import StreamsPage from "./pages/StreamsPage";
 import ActivitiesPage from "./pages/ActivitiesPage";
 import OffersPage from "./pages/OffersPage";
 import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import FAQsPage from "./pages/FAQsPage";
+import GalleryPage from "./pages/GalleryPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import MyBookingsPage from "./pages/MyBookingsPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import PaymentSuccessPage from "./pages/PaymentSuccessPage";
 import NotFound from "./pages/NotFound";
@@ -45,6 +50,11 @@ const App = () => (
             <Route path="/activities" element={<ActivitiesPage />} />
             <Route path="/offers" element={<OffersPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/faq" element={<FAQsPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/privacy" element={<PrivacyPolicyPage />} />
+            <Route path="/bookings" element={<MyBookingsPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Route>
