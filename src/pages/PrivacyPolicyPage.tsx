@@ -1,163 +1,137 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Shield, Eye, Lock, Users, Bell, FileText } from "lucide-react";
+import { Shield, Lock, Eye, Users, FileText, AlertCircle } from "lucide-react";
 
 const PrivacyPolicyPage = () => {
   const sections = [
     {
-      icon: Eye,
+      icon: FileText,
       title: "Information We Collect",
-      content: [
-        "Personal information (name, email, phone number) when you register",
-        "Payment information for ticket purchases (processed securely)",
-        "Device and usage information to improve our services",
-        "Location data to show relevant events near you",
-        "Communication preferences and interaction history"
-      ]
+      content: "We collect information you provide when creating an account, booking tickets, and using our services. This includes your name, email, phone number, and payment information."
     },
     {
       icon: Lock,
       title: "How We Use Your Information",
-      content: [
-        "Process ticket bookings and send confirmations",
-        "Provide customer support and respond to inquiries",
-        "Send event updates and promotional communications",
-        "Improve our platform and develop new features",
-        "Ensure security and prevent fraudulent activities"
-      ]
-    },
-    {
-      icon: Users,
-      title: "Information Sharing",
-      content: [
-        "We never sell your personal information to third parties",
-        "Event organizers receive necessary booking details only",
-        "Payment processors handle financial transactions securely",
-        "Service providers who help us operate our platform",
-        "Legal authorities when required by law"
-      ]
-    },
-    {
-      icon: Bell,
-      title: "Your Privacy Rights",
-      content: [
-        "Access and download your personal data",
-        "Correct or update your information",
-        "Delete your account and associated data",
-        "Opt-out of marketing communications",
-        "Control location tracking and notifications"
-      ]
+      content: "Your information is used to process bookings, send event updates, improve our services, and provide customer support. We never sell your personal data to third parties."
     },
     {
       icon: Shield,
       title: "Data Security",
-      content: [
-        "Industry-standard encryption for all data transmission",
-        "Secure servers with regular security audits",
-        "Limited access to personal information by employees",
-        "Regular security training for our team",
-        "Immediate notification of any security incidents"
-      ]
+      content: "We implement industry-standard security measures including encryption, secure servers, and regular security audits to protect your personal information."
     },
     {
-      icon: FileText,
-      title: "Data Retention",
-      content: [
-        "Account information retained while your account is active",
-        "Transaction records kept for 7 years as required by law",
-        "Marketing preferences stored until you opt-out",
-        "Support communications kept for 2 years",
-        "Deleted accounts purged within 30 days"
-      ]
+      icon: Eye,
+      title: "Information Sharing",
+      content: "We only share necessary information with event organizers to process your bookings. We may also share aggregated, non-personal data for analytics purposes."
+    },
+    {
+      icon: Users,
+      title: "Your Rights",
+      content: "You have the right to access, update, or delete your personal information. You can also opt-out of marketing communications at any time."
+    },
+    {
+      icon: AlertCircle,
+      title: "Changes to Privacy Policy",
+      content: "We may update this policy occasionally. We'll notify you of significant changes via email or through our platform."
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <div className="container mx-auto px-4 py-12">
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mb-4">
-            <Shield className="w-8 h-8 text-white" />
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
+      {/* Hero Section with Privacy Theme Image */}
+      <div className="relative h-80 bg-gradient-to-r from-eventhive-dark to-eventhive-pink overflow-hidden">
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"></div>
+        <div className="container mx-auto px-4 h-full flex items-center relative z-10">
+          <div className="max-w-2xl text-white">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-4">
+              <Shield className="w-8 h-8" />
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
+            <p className="text-xl opacity-90">
+              Your privacy matters to us. Learn how we protect and handle your personal information.
+            </p>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Privacy <span className="text-eventhive-pink">Policy</span>
-          </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Your privacy is important to us. Learn how we collect, use, and protect your information.
-          </p>
-          <Badge className="mt-4 bg-green-100 text-green-800">
-            Last updated: December 2024
-          </Badge>
         </div>
+      </div>
 
-        <div className="max-w-4xl mx-auto mb-8">
-          <Card className="border-0 shadow-lg bg-gradient-to-r from-eventhive-pink/10 to-eventhive-dark/10">
-            <CardContent className="p-8">
-              <h2 className="text-2xl font-bold mb-4">Our Commitment to Privacy</h2>
-              <p className="text-gray-700 leading-relaxed">
-                At EventHive, we believe in transparency and your right to privacy. This policy explains 
-                how we handle your personal information when you use our platform to discover and book events. 
-                We are committed to protecting your data and giving you control over how it's used.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
+      <div className="container mx-auto px-4 py-16">
+        {/* Introduction */}
+        <Card className="max-w-4xl mx-auto mb-12 shadow-lg border-0">
+          <CardContent className="p-8">
+            <div className="flex items-start space-x-4">
+              <div className="w-48 h-32 rounded-lg overflow-hidden flex-shrink-0">
+                <img 
+                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                  alt="Data protection and privacy" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div>
+                <h2 className="text-2xl font-bold text-eventhive-dark mb-4">Our Commitment to Your Privacy</h2>
+                <p className="text-gray-600 leading-relaxed">
+                  At EventHive, we are committed to protecting your privacy and ensuring the security of your personal information. 
+                  This Privacy Policy explains how we collect, use, and safeguard your data when you use our platform to discover 
+                  and book amazing events.
+                </p>
+                <p className="text-sm text-gray-500 mt-4">
+                  <strong>Last updated:</strong> December 2024
+                </p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
+        {/* Policy Sections */}
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           {sections.map((section, index) => (
-            <Card key={index} className="shadow-lg border-0 hover:shadow-xl transition-shadow duration-300">
-              <CardHeader className="pb-4">
-                <CardTitle className="flex items-center gap-3 text-xl">
-                  <div className="w-10 h-10 bg-eventhive-pink/10 rounded-full flex items-center justify-center">
+            <Card key={index} className="shadow-lg border-0 hover:shadow-xl transition-shadow">
+              <CardHeader className="bg-gradient-to-r from-eventhive-pink/10 to-eventhive-dark/10">
+                <CardTitle className="flex items-center gap-3 text-eventhive-dark">
+                  <div className="p-2 bg-eventhive-pink/10 rounded-lg">
                     <section.icon className="w-5 h-5 text-eventhive-pink" />
                   </div>
                   {section.title}
                 </CardTitle>
               </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  {section.content.map((item, itemIndex) => (
-                    <li key={itemIndex} className="flex items-start gap-2">
-                      <div className="w-2 h-2 bg-eventhive-pink rounded-full mt-2 flex-shrink-0" />
-                      <span className="text-gray-600">{item}</span>
-                    </li>
-                  ))}
-                </ul>
+              <CardContent className="p-6">
+                <p className="text-gray-600 leading-relaxed">{section.content}</p>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto mt-12 space-y-6">
-          <Card className="border-0 shadow-lg">
-            <CardHeader>
-              <CardTitle className="text-xl">Contact Us About Privacy</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-600 mb-4">
-                If you have questions about this privacy policy or how we handle your data, please contact us:
-              </p>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <p><strong>Email:</strong> privacy@eventhive.com</p>
-                <p><strong>Address:</strong> Privacy Officer, EventHive, 123 Event Street, Mumbai, India</p>
-                <p><strong>Phone:</strong> +91 98765 43210</p>
+        {/* Additional Information */}
+        <Card className="max-w-4xl mx-auto mt-12 shadow-lg border-0">
+          <CardHeader className="bg-gradient-to-r from-green-50 to-blue-50">
+            <CardTitle className="text-eventhive-dark flex items-center gap-2">
+              <Lock className="w-5 h-5 text-eventhive-pink" />
+              Additional Privacy Information
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="p-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="font-semibold text-gray-800 mb-3">Contact for Privacy Concerns</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  If you have any questions about this Privacy Policy or our data practices, please contact our Privacy Officer.
+                </p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong>Email:</strong> privacy@eventhive.com</p>
+                  <p><strong>Phone:</strong> +91 98765 43210</p>
+                  <p><strong>Address:</strong> 123 Innovation Hub, Tech Park, Bangalore</p>
+                </div>
               </div>
-            </CardContent>
-          </Card>
-
-          <Card className="border-0 shadow-lg bg-gradient-to-r from-green-50 to-blue-50">
-            <CardContent className="p-6">
-              <h3 className="text-lg font-bold mb-2">Changes to This Policy</h3>
-              <p className="text-gray-600">
-                We may update this privacy policy from time to time. When we do, we'll notify you via email 
-                and update the "Last updated" date above. Continued use of our services after changes 
-                constitutes acceptance of the updated policy.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
+              <div className="flex justify-center">
+                <img 
+                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                  alt="Secure data protection" 
+                  className="w-full h-40 object-cover rounded-lg"
+                />
+              </div>
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </div>
   );
